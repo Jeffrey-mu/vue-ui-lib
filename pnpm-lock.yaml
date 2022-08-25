@@ -22,13 +22,13 @@ specifiers:
   vitest: ^0.21.0
   vue: ^3.2.37
   vue-tsc: ^0.39.5
-  vue-ui-libs: ^0.0.2
+  vue-ui-libs: ^0.0.3
 
 dependencies:
   pinia: registry.npmjs.org/pinia/2.0.20_typescript@4.7.4+vue@3.2.37
   unbuild: registry.npmjs.org/unbuild/0.8.9
   vue: registry.npmjs.org/vue/3.2.37
-  vue-ui-libs: registry.npmjs.org/vue-ui-libs/0.0.2_typescript@4.7.4
+  vue-ui-libs: registry.npmjs.org/vue-ui-libs/0.0.3_typescript@4.7.4
 
 devDependencies:
   '@rushstack/eslint-patch': registry.npmjs.org/@rushstack/eslint-patch/1.1.4
@@ -4460,6 +4460,22 @@ packages:
       unbuild: registry.npmjs.org/unbuild/0.8.9
       vue: registry.npmjs.org/vue/3.2.37
       vue-ui-libs: registry.npmjs.org/vue-ui-libs/0.0.1_typescript@4.7.4
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - supports-color
+      - typescript
+    dev: false
+
+  registry.npmjs.org/vue-ui-libs/0.0.3_typescript@4.7.4:
+    resolution: {integrity: sha512-6DG8TD0Krm1AJoUiZvd8S/Fzah0qYkvHiRvwEVadJYJxW38/4KSbybMCwzCIeEYrmOer8j5Qv50ifVIU/QOrzQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/vue-ui-libs/-/vue-ui-libs-0.0.3.tgz}
+    id: registry.npmjs.org/vue-ui-libs/0.0.3
+    name: vue-ui-libs
+    version: 0.0.3
+    dependencies:
+      pinia: registry.npmjs.org/pinia/2.0.20_typescript@4.7.4+vue@3.2.37
+      unbuild: registry.npmjs.org/unbuild/0.8.9
+      vue: registry.npmjs.org/vue/3.2.37
+      vue-ui-libs: registry.npmjs.org/vue-ui-libs/0.0.2_typescript@4.7.4
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
