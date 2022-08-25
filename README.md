@@ -32,6 +32,8 @@ import {Button} from "vue-ui-libs"
 ```
 
 ## props
+### Button
+- 目前有16种button样式 通过type参数控制样式
 ```ts
 type BtnType =
   | "1"
@@ -64,3 +66,6 @@ type BtnType =
 - 目前只有button组件
 
 
+## 链接
+
+- [项目参考](https://codepen.io/yuhomyan/pen/OJMejWJ)
