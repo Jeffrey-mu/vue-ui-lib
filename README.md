@@ -1,4 +1,4 @@
-[English]() | [中文]()
+[English]() | [中文](https://github.com/Jeffrey-mu/vue-ui-lib#readme)
 ## vue-ui-libs
 
 
