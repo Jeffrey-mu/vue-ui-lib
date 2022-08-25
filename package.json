@@ -12,6 +12,22 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "build:lib": "node build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeffrey-mu/vue-ui-lib.git"
+  },
+  "homepage": "https://github.com/Jeffrey-mu/vue-ui-lib#readme",
+  "bugs": {
+    "url": "https://github.com/Jeffrey-mu/vue-ui-lib/issues"
+  },
+  "keywords": [
+    "vue",
+    "typescript",
+    "ui",
+    "lib"
+  ],
+  "author": "Jeffrey-mu",
+  "license": "ISC",
   "dependencies": {
     "pinia": "^2.0.17",
     "unbuild": "^0.8.9",
