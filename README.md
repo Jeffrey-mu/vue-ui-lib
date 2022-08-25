@@ -1,52 +1,66 @@
-# vue-ui-lib
+## vue-ui-libs
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+- vue-ui-libs 是一个基于vue3.0 + ts 的ui库
+- 仅支持typescript 下使用此组件
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 安装
 
-## Type Support for `.vue` Imports in TS
+```bash
+npm install vue-ui-libs
+```
+## 全局使用
+```js
+import { createApp } from 'vue'
+import App from './App.vue'
+import vuelibs from "vue-ui-libs"
+import './assets/main.css'
+const app = createApp(App)
+app.use(vuelibs)
+app.mount('#app')
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+## 局部使用
+```html
+<script>
+import {Button} from "vue-ui-libs"
+</script>
+<template>
+<Button type="1"/>
+</template>
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
+## props
+```ts
+type BtnType =
+  | "1"
+  | "2"
+  | "3"
+  | "4"
+  | "5"
+  | "6"
+  | "7"
+  | "8"
+  | "9"
+  | "10"
+  | "11"
+  | "12"
+  | "13"
+  | "14"
+  | "15"
+  | "16";
 ```
+| type    | subText |
+| ------- | ------- |
+| BtnType | string  |
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## 事件
+- 支持点击事件 click
 
-```sh
-npm run test:unit
-```
 
-### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
-```
+## 组件
+- 目前只有button组件
+
+

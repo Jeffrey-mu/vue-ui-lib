@@ -22,11 +22,13 @@ specifiers:
   vitest: ^0.21.0
   vue: ^3.2.37
   vue-tsc: ^0.39.5
+  vue-ui-libs: ^0.0.2
 
 dependencies:
   pinia: registry.npmjs.org/pinia/2.0.20_typescript@4.7.4+vue@3.2.37
   unbuild: registry.npmjs.org/unbuild/0.8.9
   vue: registry.npmjs.org/vue/3.2.37
+  vue-ui-libs: registry.npmjs.org/vue-ui-libs/0.0.2_typescript@4.7.4
 
 devDependencies:
   '@rushstack/eslint-patch': registry.npmjs.org/@rushstack/eslint-patch/1.1.4
@@ -4432,6 +4434,37 @@ packages:
       '@volar/vue-typescript': registry.npmjs.org/@volar/vue-typescript/0.39.5
       typescript: registry.npmjs.org/typescript/4.7.4
     dev: true
+
+  registry.npmjs.org/vue-ui-libs/0.0.1_typescript@4.7.4:
+    resolution: {integrity: sha512-cVU5xgQqoRBw6ASa486vE4h+T8ivxaDTCB/BT5vp1VXZ24hchUtNzy4DJQXt7hUbvTw+6CmfWNmTbGRyi2r2lg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/vue-ui-libs/-/vue-ui-libs-0.0.1.tgz}
+    id: registry.npmjs.org/vue-ui-libs/0.0.1
+    name: vue-ui-libs
+    version: 0.0.1
+    dependencies:
+      pinia: registry.npmjs.org/pinia/2.0.20_typescript@4.7.4+vue@3.2.37
+      unbuild: registry.npmjs.org/unbuild/0.8.9
+      vue: registry.npmjs.org/vue/3.2.37
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - supports-color
+      - typescript
+    dev: false
+
+  registry.npmjs.org/vue-ui-libs/0.0.2_typescript@4.7.4:
+    resolution: {integrity: sha512-lWmu5DayCvNPXtn2qC5BwXscqGUHtuizMizqeoaTo6O67WyTnXEKQvF2AFQ3d5dG1h11y1AKD1Xpez6TUnM/qA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/vue-ui-libs/-/vue-ui-libs-0.0.2.tgz}
+    id: registry.npmjs.org/vue-ui-libs/0.0.2
+    name: vue-ui-libs
+    version: 0.0.2
+    dependencies:
+      pinia: registry.npmjs.org/pinia/2.0.20_typescript@4.7.4+vue@3.2.37
+      unbuild: registry.npmjs.org/unbuild/0.8.9
+      vue: registry.npmjs.org/vue/3.2.37
+      vue-ui-libs: registry.npmjs.org/vue-ui-libs/0.0.1_typescript@4.7.4
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - supports-color
+      - typescript
+    dev: false
 
   registry.npmjs.org/vue/3.2.37:
     resolution: {integrity: sha512-bOKEZxrm8Eh+fveCqS1/NkG/n6aMidsI6hahas7pa0w/l7jkbssJVsRhVDs07IdDq7h9KHswZOgItnwJAgtVtQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/vue/-/vue-3.2.37.tgz}
