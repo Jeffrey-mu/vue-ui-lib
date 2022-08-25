@@ -1,16 +1,15 @@
-[English]() | [中文]()
 ## vue-ui-libs
 
 
-- vue-ui-libs 是一个基于vue3.0 + ts 的ui库
-- 仅支持typescript 下使用此组件
+- vue-ui-libs Is a UI Library Based on vue3.0 + ts
+- This component is only supported under typescript
 
-## 安装
+## install
 
 ```bash
 npm install vue-ui-libs
 ```
-## 全局使用
+## Global use
 ```js
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -22,7 +21,7 @@ app.mount('#app')
 
 ```
 
-## 局部使用
+## Local use
 ```html
 <script>
 import {Button} from "vue-ui-libs"
@@ -34,7 +33,7 @@ import {Button} from "vue-ui-libs"
 
 ## props
 ### Button
-- 目前有16种button样式 通过type参数控制样式
+- Currently, there are 16 kinds of button styles, which are controlled by the type parameter
 ```ts
 type BtnType =
   | "1"
@@ -58,15 +57,15 @@ type BtnType =
 | ------- | ------- |
 | BtnType | string  |
 
-## 事件
-- 支持点击事件 click
+## event
+- Support click events click
 
 
 
-## 组件
-- 目前只有button组件
+## components
+- Currently, there are only button components
 
 
-## 链接
+## link
 
-- [button 参考](https://codepen.io/yuhomyan/pen/OJMejWJ)
+- [button reference](https://codepen.io/yuhomyan/pen/OJMejWJ)
