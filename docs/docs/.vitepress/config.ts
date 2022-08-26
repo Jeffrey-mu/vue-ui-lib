@@ -30,6 +30,7 @@ export default defineConfig({
           text: 'components',
           items: [
             { text: '按钮', link: 'components/Button' },
+            { text: '卡片', link: 'components/Card' },
           ]
         }
       ],

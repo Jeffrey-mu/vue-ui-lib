@@ -1,4 +1,5 @@
 import Button from "./Button/index.vue";
+import Card from "./Card/index.vue";
 const exclude = ['description', 'version', 'name', 'install']
 
 const VUE_UI_LIBS = {
@@ -6,6 +7,7 @@ const VUE_UI_LIBS = {
   version: "0.0.3",
   description: "一个vue3版本ui库。",
   Button,
+  Card,
   install
 }
 export function install(app: any) {
@@ -16,6 +18,6 @@ export function install(app: any) {
 
 };
 
-export { Button }
+export { Button, Card }
 export default VUE_UI_LIBS
 

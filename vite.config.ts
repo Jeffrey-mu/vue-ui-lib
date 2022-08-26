@@ -7,6 +7,9 @@ import path from "path";
 import Unocss from 'unocss/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
+  server: {
+    port: 3333
+  },
   plugins: [Vue({
     include: [/\.vue$/, /\.md$/],
     reactivityTransform: true,
