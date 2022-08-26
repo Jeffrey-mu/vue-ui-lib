@@ -6,9 +6,7 @@
 :::demo 使用基础用法
 ```vue
 <template>
-  <ui-button type="1">123</ui-button>
-  <ui-button type="2">123</ui-button>
-  <ui-button type="3">123</ui-button>
+  <ui-button v-for="item in 16" :type="item + ''" >click</ui-button>
 </template>
 ```
 :::

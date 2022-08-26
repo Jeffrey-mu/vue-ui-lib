@@ -12,7 +12,7 @@ export default defineConfig({
   lastUpdated: true,
   themeConfig: {
     siteTitle: 'vue-ui-libs',
-    logo: 'Vue.png',
+    logo: 'https://github.com/Jeffrey-mu/vue-ui-lib/blob/master/docs/docs/Vue.png?raw=true',
     outlineTitle: '在本页面',
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Jeffrey-mu/vue-ui-lib' },
