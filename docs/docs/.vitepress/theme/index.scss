@@ -1,0 +1,43 @@
+$border-color:#4f4e4e;
+
+$background-color:#242424;
+
+.dark {
+  .vp-doc {
+    background-color: $background-color;
+    border-color: $border-color;
+
+    .demo-block-control {
+      background-color: $background-color;
+    }
+
+    .description {
+      background-color: $background-color;
+      border-color: $border-color;
+    }
+
+    .line-numbers-wrapper {
+      background-color: $background-color !important;
+      border-color: $border-color;
+    }
+
+    .demo-block {
+      border-color: $border-color !important;
+    }
+
+    .meta {
+      background-color: $background-color;
+      border-color: $border-color;
+    }
+
+    .demo-block-control {
+      border-color: $border-color;
+
+      &:hover {
+        background-color: #111;
+        border-color: $border-color;
+      }
+    }
+
+  }
+}

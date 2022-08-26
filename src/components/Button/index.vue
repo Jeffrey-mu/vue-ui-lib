@@ -31,7 +31,7 @@ const emit = defineEmits(["click"]);
 
 <template>
   <button
-    class="custom-btn"
+    class="custom-btn ui-button"
     :class="['btn-' + (type || '1')]"
     @click="emit('click')"
   >
