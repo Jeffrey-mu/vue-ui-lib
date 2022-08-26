@@ -1,15 +1,20 @@
 import { fileURLToPath, URL } from 'node:url'
-
+import Pages from 'vite-plugin-pages'
 import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import Vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-
+import path from "path";
+import Unocss from 'unocss/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), vueJsx()],
+  plugins: [Vue({
+    include: [/\.vue$/, /\.md$/],
+    reactivityTransform: true,
+  }), vueJsx(), Pages({ extensions: ["vue", "md"], }), Unocss(),],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      "~/": `${path.resolve(__dirname, "src")}/`,
     }
   }
 })
