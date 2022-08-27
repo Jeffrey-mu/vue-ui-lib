@@ -1,7 +1,7 @@
 # Stars 星辰卡片
 
 - 内部实现使用three绘图, 插入组件根节点，可对跟节点设置样式，如圆角阴影等...
-
+- tips `好看的屏保`
 ## 基础用法
 :::demo 使用基础用法
 ```vue
@@ -43,8 +43,14 @@ const array = [
 
 <style>
 .stars {
-  margin:10px
+  margin:10px;
+  transition: all 1s;
+  z-index: 10;
 }
+.stars:hover {
+  transform: scale(3);
+  transition: all .5s;
+  }
 </style>
 ```
 :::
