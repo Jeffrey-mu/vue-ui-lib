@@ -13,7 +13,7 @@
 }
 
 .dark .vp-doc .line-numbers-wrapper {
-  background-color: #242424 !important;
+  background-color: #111 !important;
   border-color: #4f4e4e;
 }
 
@@ -33,4 +33,9 @@
 .dark .vp-doc .demo-block-control:hover {
   background-color: #111;
   border-color: #4f4e4e;
+}
+
+.vp-doc .line-numbers-wrapper {
+  background-color: #242424 !important;
+  color: #fff;
 }

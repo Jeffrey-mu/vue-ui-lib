@@ -25,8 +25,8 @@ const mousePY = computed(() => {
   return mouseY.value / height.value;
 });
 const cardStyle = computed(() => {
-  const rX = mousePX.value * 15;
-  const rY = mousePY.value * -15;
+  const rX = mousePX.value * 20;
+  const rY = mousePY.value * -20;
   return {
     transform: `rotateY(${rX}deg) rotateX(${rY}deg)`,
   };

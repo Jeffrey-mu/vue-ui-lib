@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { demoBlockPlugin } from 'vitepress-theme-demoblock'
-
+import { nav, sidebar } from './config/index'
 export default defineConfig({
   head: [
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }]
@@ -17,24 +17,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Jeffrey-mu/vue-ui-lib' },
     ],
-    nav: [
-      { text: '指南', link: '/guide/' },
-      {
-        text: '组件', link: '/components/Button'
-      },
-
-    ],
-    sidebar: {
-      '/components/': [
-        {
-          text: 'components',
-          items: [
-            { text: '按钮', link: 'components/Button' },
-            { text: '卡片', link: 'components/Card' },
-          ]
-        }
-      ],
-    },
+    nav,
+    sidebar,
     lastUpdatedText: '最后更新时间',
     docFooter: {
       prev: '上一页',

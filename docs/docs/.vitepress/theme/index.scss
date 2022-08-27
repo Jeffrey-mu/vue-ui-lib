@@ -17,7 +17,7 @@ $background-color:#242424;
     }
 
     .line-numbers-wrapper {
-      background-color: $background-color !important;
+      background-color: #111 !important;
       border-color: $border-color;
     }
 
@@ -39,5 +39,12 @@ $background-color:#242424;
       }
     }
 
+  }
+}
+
+.vp-doc {
+  .line-numbers-wrapper {
+    background-color: $background-color !important;
+    color: #fff;
   }
 }

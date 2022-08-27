@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import App from './App.vue'
-import vuelibs from "vue-ui-libs"
+import vuelibs from "./index"
 import { createRouter, createWebHashHistory } from 'vue-router'
 import routes from '~pages'
 import "~/assets/base.css"
