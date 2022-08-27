@@ -32,6 +32,7 @@
     "@vueuse/core": "^9.1.1",
     "@vueuse/head": "^0.7.9",
     "pinia": "^2.0.17",
+    "three": "^0.143.0",
     "unbuild": "^0.8.9",
     "unocss": "^0.45.12",
     "vitepress-theme-demoblock": "^1.4.2",

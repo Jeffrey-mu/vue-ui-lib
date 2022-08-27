@@ -15,6 +15,7 @@ export const sidebar = {
       items: [
         { text: '按钮', link: 'components/Button' },
         { text: '卡片', link: 'components/Card' },
+        { text: '星辰', link: 'components/Stars' },
       ]
     }
   ],
