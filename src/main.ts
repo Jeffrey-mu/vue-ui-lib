@@ -3,6 +3,7 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import vuelibs from "./index"
 import { createRouter, createWebHashHistory } from 'vue-router'
+// @ts-ignore
 import routes from '~pages'
 import "~/assets/base.css"
 import 'uno.css'

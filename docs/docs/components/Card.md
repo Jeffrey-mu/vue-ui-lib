@@ -5,7 +5,7 @@
 :::demo 使用基础用法
 ```vue
 <template>
-  <ui-card dataImage="https://images.unsplash.com/photo-1614071071386-b765b023f79a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8UzRNS0xBc0JCNzR8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60" :width="300" :height="590">
+  <ui-card dataImage="/card.avif" :width="300" :height="590">
   <template #header>
   Canyons
   </template>
@@ -14,7 +14,7 @@
   </template>
 
   </ui-card>
-  <ui-card dataImage="https://images.unsplash.com/photo-1660826568922-b50692ab3d94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDM1fENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+  <ui-card dataImage="/card2.avif">
   <template #header>
   Canyons
   </template>

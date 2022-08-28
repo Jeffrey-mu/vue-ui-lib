@@ -1,5 +1,5 @@
 <template>
-  <div class="ui-typing" ref="uiTying">
+  <div class="ui-typing" ref="uiTying" :style="{ width }">
     <slot>This is a typing demo.</slot>
   </div>
 </template>
@@ -16,9 +16,7 @@ const width = computed(() => size.value + "ch");
 </script>
 <style scoped>
 .ui-typing {
-  width: v-bind(width);
-  animation: typing 2s steps(v-bind(size)),
-    blink 0.5s step-end infinite alternate;
+  animation: typing 3s, blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 1px solid;
