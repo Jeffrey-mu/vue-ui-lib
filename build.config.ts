@@ -1,5 +1,3 @@
 export default {
-  entries: [
-    './src/components'
-  ]
-}
+  entries: ["./src/components"],
+};
