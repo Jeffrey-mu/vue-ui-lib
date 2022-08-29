@@ -32,40 +32,6 @@ import {Button} from "vue-ui-libs"
 </template>
 ```
 
-## props
-### Button
-- 目前有16种button样式 通过type参数控制样式
-```ts
-type BtnType =
-  | "1"
-  | "2"
-  | "3"
-  | "4"
-  | "5"
-  | "6"
-  | "7"
-  | "8"
-  | "9"
-  | "10"
-  | "11"
-  | "12"
-  | "13"
-  | "14"
-  | "15"
-  | "16";
-```
-| type    | subText |
-| ------- | ------- |
-| BtnType | string  |
-
-## 事件
-- 支持点击事件 click
-
-
-
-## 组件
-- 目前只有button组件
-
 
 ## 链接
 
