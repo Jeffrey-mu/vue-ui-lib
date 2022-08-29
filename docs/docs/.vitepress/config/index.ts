@@ -30,6 +30,7 @@ export const sidebar = {
         { text: '防抖', link: 'directives/debounce' },
         { text: '节流', link: 'directives/throttle' },
         { text: '长按', link: 'directives/longpress' },
+        { text: '水波纹', link: 'directives/Ripple' },
       ]
     }
   ],
