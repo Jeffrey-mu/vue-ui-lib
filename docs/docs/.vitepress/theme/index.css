@@ -35,7 +35,11 @@
   border-color: #4f4e4e;
 }
 
+.dark .vp-doc .operator {
+  background-color: transparent;
+}
+
 .vp-doc .line-numbers-wrapper {
-  background-color: #292d3e !important;
+  background-color: #242424 !important;
   color: #fff;
 }
