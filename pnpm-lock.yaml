@@ -12,6 +12,7 @@ specifiers:
   '@vue/tsconfig': ^0.1.3
   '@vueuse/core': ^9.1.1
   '@vueuse/head': ^0.7.9
+  canvas-confetti: ^1.5.1
   eslint: ^8.21.0
   eslint-plugin-vue: ^9.3.0
   jsdom: ^20.0.0
@@ -34,6 +35,7 @@ specifiers:
 dependencies:
   '@vueuse/core': registry.npmjs.org/@vueuse/core/9.1.1_vue@3.2.37
   '@vueuse/head': registry.npmjs.org/@vueuse/head/0.7.9_vue@3.2.37
+  canvas-confetti: registry.npmjs.org/canvas-confetti/1.5.1
   pinia: registry.npmjs.org/pinia/2.0.20_typescript@4.7.4+vue@3.2.37
   three: registry.npmjs.org/three/0.143.0
   unbuild: registry.npmjs.org/unbuild/0.8.9
@@ -1959,6 +1961,12 @@ packages:
     resolution: {integrity: sha512-swMpEoTp5vDoGBZsYZX7L7nXHe6dsHxi9o6/LKf/f0LukVtnrxly5GVb/fWdCDTqi/yw6Km6tiJ0pmBacm0gbg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001383.tgz}
     name: caniuse-lite
     version: 1.0.30001383
+
+  registry.npmjs.org/canvas-confetti/1.5.1:
+    resolution: {integrity: sha512-Ncz+oZJP6OvY7ti4E1slxVlyAV/3g7H7oQtcCDXgwGgARxPnwYY9PW5Oe+I8uvspYNtuHviAdgA0LfcKFWJfpg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/canvas-confetti/-/canvas-confetti-1.5.1.tgz}
+    name: canvas-confetti
+    version: 1.5.1
+    dev: false
 
   registry.npmjs.org/chai/4.3.6:
     resolution: {integrity: sha512-bbcp3YfHCUzMOvKqsztczerVgBKSsEijCySNlHHbX3VG1nskvqjz5Rfso1gGwD6w6oOV3eI60pKuMOV5MV7p3Q==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/chai/-/chai-4.3.6.tgz}
