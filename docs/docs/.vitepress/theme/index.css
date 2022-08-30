@@ -43,3 +43,7 @@
   background-color: #242424 !important;
   color: #fff;
 }
+
+.vp-doc .operator {
+  background-color: transparent;
+}
