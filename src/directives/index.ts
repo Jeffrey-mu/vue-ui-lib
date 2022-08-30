@@ -17,6 +17,14 @@ const directivesList: any = {
 	ripple
 };
 
-
+export {
+	copy,
+	waterMarker,
+	draggable,
+	debounce,
+	throttle,
+	longpress,
+	ripple
+}
 
 export default directivesList;

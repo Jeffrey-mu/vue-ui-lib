@@ -1,0 +1,36 @@
+<html>
+<script>
+  function over_handler(event) {
+    console.log("over_handler");
+  }
+  function enter_handler(event) { console.log("enter_handler"); }
+  function down_handler(event) { console.log("down_handler"); }
+  function move_handler(event) { console.log("move_handler"); }
+  function up_handler(event) { console.log("up_handler"); }
+  function cancel_handler(event) { console.log("cancel_handler"); }
+  function out_handler(event) { console.log("out_handler"); }
+  function leave_handler(event) { console.log("leave_handler"); }
+  function gotcapture_handler(event) { console.log("gotcapture_handler"); }
+  function lostcapture_handler(event) { console.log("lostcapture_handler"); }
+
+  function init() {
+    var el = document.getElementById("target");
+    // Register pointer event handlers
+    // el.onpointerover = over_handler;
+    // el.onpointerenter = enter_handler;
+    // el.onpointerdown = down_handler;
+    // el.onpointermove = move_handler;
+    // el.onpointerup = up_handler;
+    // el.onpointercancel = cancel_handler;
+    // el.onpointerout = out_handler;
+    // el.onpointerleave = leave_handler;
+    el.gotpointercapture = gotcapture_handler;
+    el.lostpointercapture = lostcapture_handler;
+  }
+</script>
+
+<body onload="init();">
+  <div id="target"> Touch me ... </div>
+</body>
+
+</html>

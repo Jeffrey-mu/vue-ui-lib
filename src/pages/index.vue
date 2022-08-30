@@ -1,7 +1,6 @@
 <script setup lang="ts">
+import { onMounted, ref } from "vue";
+import { confettiFunction } from "../index";
+onMounted(confettiFunction({ model: "fireworks" }));
 </script>
-
-  <!-- <HomePage /> -->
-  <template>
-  <h1 v-ripple>hello world</h1>
-</template>
+  <template></template>
