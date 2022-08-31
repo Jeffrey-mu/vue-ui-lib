@@ -48,9 +48,29 @@
   background-color: transparent;
 }
 
-.vp-doc table tboay tr th,
+.vp-doc table {
+  width: 100%;
+  display: inline-table;
+}
+
+.vp-doc table tbody tr,
+.vp-doc table thead tr {
+  border: none;
+  background: transparent !important;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.vp-doc table tbody tr td,
+.vp-doc table tbody tr th,
+.vp-doc table thead tr td,
 .vp-doc table thead tr th {
   background: transparent !important;
   border: none;
   font-size: 14px;
+}
+
+.vp-doc table tbody tr th,
+.vp-doc table thead tr th {
+  font-weight: 600;
 }

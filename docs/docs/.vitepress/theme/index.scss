@@ -56,14 +56,28 @@ $background-color:#242424;
   }
 
   table {
+    width: 100%;
+    display: inline-table;
 
-    tboay,
+    tbody,
     thead {
+
       tr {
+        border: none;
+        background: transparent !important;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+
+        td,
         th {
           background: transparent !important;
           border: none;
           font-size: 14px;
+
+        }
+
+        th {
+          font-weight: 600;
         }
       }
     }
