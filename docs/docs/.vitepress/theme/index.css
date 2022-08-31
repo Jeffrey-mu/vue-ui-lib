@@ -47,3 +47,10 @@
 .vp-doc .operator {
   background-color: transparent;
 }
+
+.vp-doc table tboay tr th,
+.vp-doc table thead tr th {
+  background: transparent !important;
+  border: none;
+  font-size: 14px;
+}

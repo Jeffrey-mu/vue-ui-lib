@@ -54,4 +54,18 @@ $background-color:#242424;
   .operator {
     background-color: transparent;
   }
+
+  table {
+
+    tboay,
+    thead {
+      tr {
+        th {
+          background: transparent !important;
+          border: none;
+          font-size: 14px;
+        }
+      }
+    }
+  }
 }

@@ -82,11 +82,11 @@ interface Options {
 }
 ```
 ## props
-| 属性名  | 描述               | 类型          | Accepted Values | 默认值                 |
-| ------- | ------------------ | ------------- | --------------- | ---------------------- |
-| model   | 纸屑模式           | ConfettiModel |                 | basic                  |
-| colors  | 16禁止颜色         | string[]      |                 | ["#bb0000", "#ffffff"] |
-| options | 自定义模式所需参数 | Options       |                 | ["#bb0000", "#ffffff"] |
+| 属性名  | 描述               | 类型          | 默认值                 |
+| ------- | ------------------ | ------------- | ---------------------- |
+| model   | 纸屑模式           | ConfettiModel | basic                  |
+| colors  | 16禁止颜色         | string[]      | ["#bb0000", "#ffffff"] |
+| options | 自定义模式所需参数 | Options       | ["#bb0000", "#ffffff"] |
 
 - `custom` model 为自定义纸屑
 
