@@ -32,6 +32,7 @@ export const sidebar = {
         { text: '节流', link: 'directives/throttle' },
         { text: '长按', link: 'directives/longpress' },
         { text: '水波纹', link: 'directives/Ripple' },
+        { text: '滤镜', link: 'directives/filter' },
       ]
     }
   ],

@@ -5,6 +5,7 @@ import debounce from "./modules/debounce";
 import throttle from "./modules/throttle";
 import longpress from "./modules/longpress";
 import ripple from "./modules/ripple";
+import filter from "./modules/filter";
 
 const directivesList: any = {
 	// Custom directives
@@ -14,7 +15,8 @@ const directivesList: any = {
 	debounce,
 	throttle,
 	longpress,
-	ripple
+	ripple,
+	filter
 };
 
 export {
@@ -24,7 +26,8 @@ export {
 	debounce,
 	throttle,
 	longpress,
-	ripple
+	ripple,
+	filter
 }
 
 export default directivesList;
