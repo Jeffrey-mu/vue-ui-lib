@@ -1,0 +1,16 @@
+{
+  "name": "oss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "upload": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "fast-glob": "^3.2.11"
+  }
+}
