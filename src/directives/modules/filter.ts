@@ -7,13 +7,14 @@ const style = `.${className}{animation:fadeIn 3s linear}@keyframes fadeIn{0%{opa
 const directive: Directive = {
   mounted(el: HTMLElement) {
     addClass(el, className)
-    if (document.querySelector(`.${className}-style-tag`)) {
+    const styleTagName = `.${className}-style-tag`
+    if (document.querySelector(styleTagName)) {
       return
     }
     const styleTag = document.createElement("style");
-    addClass(styleTag, `.${className}-style-tag`)
+    addClass(styleTag, styleTagName)
     styleTag.innerHTML = style
-    document.body.appendChild(styleTag)
+    document.head.appendChild(styleTag)
   },
 
 };

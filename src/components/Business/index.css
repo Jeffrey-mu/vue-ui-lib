@@ -1,0 +1,20 @@
+.ui-business {
+  display: flex;
+  border-radius: 12px;
+  background: #111;
+  justify-content: center;
+  align-items: center;
+}
+.ui-business div {
+  font-weight: bold;
+}
+.ui-business div:nth-child(1) {
+  color: #fff;
+}
+.ui-business div:nth-child(2) {
+  padding:10px 2px;
+  margin-left: 2px;
+  color: #111;
+  background-color: #f89821;
+  border-radius:5px;
+}
