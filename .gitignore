@@ -26,3 +26,4 @@ dist
 *.sln
 *.sw?
 oss
+docs/docs/.vitepress/oss/index.js
