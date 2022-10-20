@@ -29,6 +29,7 @@
   "author": "Jeffrey-mu",
   "license": "ISC",
   "dependencies": {
+    "@types/canvas-confetti": "^1.4.3",
     "@vueuse/core": "^9.1.1",
     "@vueuse/head": "^0.7.9",
     "canvas-confetti": "^1.5.1",
