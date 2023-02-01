@@ -1,5 +1,5 @@
 {
-  "name": "oss",
+  "name": "uploadFileToOSS",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ali-oss": "^6.17.1",
-    "fast-glob": "^3.2.11"
+    "upload-files-to-oss": "^0.0.2"
   }
 }

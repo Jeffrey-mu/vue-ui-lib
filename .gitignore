@@ -26,4 +26,4 @@ dist
 *.sln
 *.sw?
 oss
-docs/docs/.vitepress/oss/index.js
+docs/docs/.vitepress/oss/upload.js
