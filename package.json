@@ -1,16 +1,17 @@
 {
   "name": "vue-ui-libs",
-  "version": "0.0.3",
-  "main": "./src/components",
+  "version": "0.0.7",
+  "main": "./src",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check build-only",
+    "build": "run-p build-only",
     "preview": "vite preview --port 4173",
     "test:unit": "vitest --environment jsdom",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "build:lib": "node build"
+    "build:lib": "node build",
   },
   "repository": {
     "type": "git",
@@ -40,7 +41,8 @@
     "vitepress-theme-demoblock": "^1.4.2",
     "vue": "^3.2.37",
     "vue-router": "^4.1.4",
-    "vue-ui-libs": "^0.0.3"
+    "vue-template-compiler": "^2.7.14",
+    "vue-ui-libs": "^0.0.7"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",

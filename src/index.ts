@@ -1,4 +1,6 @@
 import components from './components/index'
+import { version } from '../package.json'
+
 import {
   Button,
   Card,
@@ -37,7 +39,7 @@ export function install(app: App<Element>) {
 
 const VUE_UI_LIBS = {
   name: "vue-ui-libs",
-  version: "0.0.3",
+  version,
   description: "一个vue3版本ui库。",
   ...components,
   ...directivesList,
