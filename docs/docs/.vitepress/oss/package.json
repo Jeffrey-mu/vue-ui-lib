@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "upload": "node index.js"
+    "upload": "node upload.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "upload-files-to-oss": "^0.0.2"
+    "upload-files-to-oss": "^0.0.3"
   }
 }
