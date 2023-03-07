@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  upload-files-to-oss: ^0.0.3
+  upload-files-to-oss: ^0.0.4
 
 dependencies:
-  upload-files-to-oss: 0.0.3
+  upload-files-to-oss: 0.0.4
 
 packages:
 
@@ -1041,8 +1041,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: false
 
-  /upload-files-to-oss/0.0.3:
-    resolution: {integrity: sha512-R7Vkgt3IxD97kdAVVwZQX6NW4e3mvzeTNsoJ14cLs1hqD3OAQLaeJlNKrJvEfqcO0Gp6kCH88mYh/nXfDsRq9w==}
+  /upload-files-to-oss/0.0.4:
+    resolution: {integrity: sha512-uB1VS45RM1eizLsuGvCYRKolKB9esqQqR6R8uS5NLZXR2sNdLDMj+QKiI8BfIlOgITTPbALfXeFm9KodWBAJ4g==}
     dependencies:
       '@types/ali-oss': 6.16.7
       '@types/async': 3.2.18

@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "upload-files-to-oss": "^0.0.3"
+    "upload-files-to-oss": "^0.0.4"
   }
 }
