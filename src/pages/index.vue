@@ -1,13 +1,8 @@
 <script setup lang="ts">
-import { onMounted, ref } from "vue";
-import { confettiFunction } from "../index";
-onMounted(confettiFunction({ model: "fireworks" }));
+import { ref } from "vue";
+const value = ref(0);
 </script>
 <template>
-  <ui-card dataImage="../../docs/docs/public/card.avif" :width="300" :height="590">
-    <template #header> Canyons </template>
-    <template #content>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-    </template>
-  </ui-card>
+  <ui-progress :value="value"> 已加载</ui-progress>
+  <input type="number" v-model="value" />
 </template>

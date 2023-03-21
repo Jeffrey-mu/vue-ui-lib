@@ -19,6 +19,7 @@ export const sidebar = {
         { text: '打字机', link: 'components/Typewriter' },
         { text: '五彩纸屑', link: 'components/Confetti' },
         { text: '名片', link: 'components/Business' },
+        { text: '撞色进度条', link: 'components/Progress' },
       ]
     }
   ],
