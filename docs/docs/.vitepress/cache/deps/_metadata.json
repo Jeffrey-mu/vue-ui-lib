@@ -1,0 +1,25 @@
+{
+  "hash": "51940032",
+  "browserHash": "e4f7c4da",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.2.37/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "c8f32b62",
+      "needsInterop": false
+    },
+    "canvas-confetti": {
+      "src": "../../../../../node_modules/.pnpm/canvas-confetti@1.6.0/node_modules/canvas-confetti/dist/confetti.module.mjs",
+      "file": "canvas-confetti.js",
+      "fileHash": "adc0a77e",
+      "needsInterop": false
+    },
+    "three": {
+      "src": "../../../../../node_modules/.pnpm/three@0.143.0/node_modules/three/build/three.module.js",
+      "file": "three.js",
+      "fileHash": "816fddfd",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}

@@ -38,7 +38,7 @@
     "three": "^0.143.0",
     "unbuild": "^0.8.9",
     "unocss": "^0.45.12",
-    "vitepress-theme-demoblock": "^1.4.2",
+    "vitepress-theme-demoblock": "2.0.1",
     "vue": "^3.2.37",
     "vue-router": "^4.1.4",
     "vue-template-compiler": "^2.7.14",

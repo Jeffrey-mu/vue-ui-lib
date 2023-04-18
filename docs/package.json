@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:dev": "pnpm run register:components && vitepress dev docs",
+    "docs:build": "pnpm run register:components && vitepress build docs",
     "docs:serve": "vitepress serve docs",
     "register:components": "vitepress-rc"
   },
@@ -15,9 +15,8 @@
   "dependencies": {
     "markdown-it": "^13.0.1",
     "markdown-it-anchor": "^8.6.4",
-    "vitepress": "^1.0.0-alpha.10",
-    "vitepress-theme-demoblock": "^1.4.2",
-    "vue": "^3.2.37",
-    "vuepress-plugin-demoblock-plus": "^1.6.0"
+    "vitepress": "1.0.0-alpha.72",
+    "vitepress-theme-demoblock": "2.0.1",
+    "vue": "^3.2.37"
   }
 }
